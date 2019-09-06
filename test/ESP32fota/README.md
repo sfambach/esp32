@@ -8,11 +8,13 @@ See also the examples in this folder.
 Used Hardware:
 
 Heltec dev 32 Kit
+
 PI3 for the Webserver
 
 
 ## Used Libs
 https://github.com/chrisjoyce911/esp32FOTA
+
 https://github.com/bblanchon/ArduinoJson
 
 
