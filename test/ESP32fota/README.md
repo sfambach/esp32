@@ -5,7 +5,7 @@ Compile the .ino file and put it on the esp32
 Put the update.json file on a webserver and build a binary with an increaesed Version.
 See also the examples in this folder.
 
-Used Hardware:
+##Used Hardware
 
 Heltec dev 32 Kit
 
@@ -18,4 +18,4 @@ https://github.com/chrisjoyce911/esp32FOTA
 https://github.com/bblanchon/ArduinoJson
 
 
-Visit www.fambach.net for more informations
+Visit my website www.fambach.net for more informations
