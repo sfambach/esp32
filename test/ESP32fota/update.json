@@ -1,0 +1,7 @@
+{
+    "type": "esp32-heltec-kit-32",
+    "version": 4,
+    "host": "pi1",
+    "port": 80,
+    "bin": "/espupdate/esp32-heltec-kit-32-4.bin"
+}
