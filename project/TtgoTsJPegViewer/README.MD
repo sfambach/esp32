@@ -5,13 +5,17 @@ Enter here the file colcation and your wifi settings.
 <img src="./img/projectFoto.jpg">
 
 ##Used Hardware
+
 TTGO Ts V1.2 as viewer
 ESP 32 Cam as jpeg producer (with standard software)
 
 
 ## Used Libs
+
 https://github.com/adafruit/Adafruit-GFX-Library
+
 https://github.com/adafruit/Adafruit-ST7735-Library
+
 https://github.com/adafruit/Adafruit-GFX-Library
 
 Visit my website http://www.fambach.net for more informations
