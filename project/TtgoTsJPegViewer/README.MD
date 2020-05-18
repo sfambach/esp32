@@ -4,7 +4,7 @@ All setup information is located in the secrets.h.
 Enter here the file colcation and your wifi settings.
 <img src="./img/projectFoto.jpg">
 
-##Used Hardware
+## Used Hardware
 
 TTGO Ts V1.2 as viewer
 ESP 32 Cam as jpeg producer (with standard software)
