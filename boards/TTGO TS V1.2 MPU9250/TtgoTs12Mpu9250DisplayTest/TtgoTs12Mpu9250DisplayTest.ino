@@ -14,6 +14,7 @@
 
   For the Display an Adafruid lib is used,
   please support them they are doing good work.
+  
 
   If you like visit also:
   http://www.fambach.net
@@ -77,14 +78,6 @@ void paintLine(String text, uint16_t color) {
 
   }
 }
-
-//void paintText(F("Display init Success"), ST7735_WHITE) {
-//
-//
-//}
-
-
-
 
 void initDisplay() {
 
