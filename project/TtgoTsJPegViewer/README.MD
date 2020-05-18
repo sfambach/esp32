@@ -3,7 +3,7 @@ in the current example I read jpegs from the ESP 32 Cam.
 All setup information is located in the secrets.h.
 Enter here the file colcation and your wifi settings.
 
-<img src="./img/TtgoTsJPegViewer.jpg">
+<img src="./img/TtgoTsJPegViewer.jpg" height="400">
 
 ## Used Hardware
 
