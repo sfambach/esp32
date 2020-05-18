@@ -5,6 +5,9 @@ enter jpeg location and your wifi settings.
 
 <img src="./img/TtgoTsJPegViewer.jpg" height="400">
 
+This project is inspired by the M5 Stack viewer:
+https://github.com/moononournation/M5Stack-Cam-Viewer
+
 ## Used Hardware
 
 TTGO Ts V1.2 as viewer
