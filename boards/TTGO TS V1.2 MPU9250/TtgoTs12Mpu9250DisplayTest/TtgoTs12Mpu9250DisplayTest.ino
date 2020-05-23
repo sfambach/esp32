@@ -36,7 +36,6 @@
 //#define DISP_096
 #define DISP_144
 
-
 #if defined (DISP_180)
 int height = 160;
 int width = 128;
