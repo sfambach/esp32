@@ -20,14 +20,10 @@ PubSubClient client(espClient);
 
 uint64_t chipid;
 
-const int dhtpin = 22;
-const int dhtpowerpin = 17;
-const int soilpin = 32;
-const int POWER_PIN = 34;
-//const int LIGHT_PIN = 33;
+
 
 // Initialize DHT sensor.
-DHT dht(dhtpin, DHTTYPE);
+DHT dht(DHT_PIN, DHTTYPE);
 
 // Temporary variables
 static char celsiusTemp[7];
@@ -42,7 +38,7 @@ char deviceid[21];
 
 void goToDeepSleep()
 {
-  digitalWrite(dhtpowerpin, LOW);
+  //digitalWrite(dhtpowerpin, LOW);
   Serial.println("Going to sleep...");
   WiFi.disconnect(true);
   WiFi.mode(WIFI_OFF);
@@ -60,8 +56,8 @@ void goToDeepSleep()
 
 void setup() 
 {
-  pinMode(dhtpowerpin, OUTPUT);
-  digitalWrite(dhtpowerpin, HIGH);
+  //pinMode(dhtpowerpin, OUTPUT);
+  //digitalWrite(dhtpowerpin, HIGH);
  
 
   // power optimization 
@@ -104,7 +100,7 @@ void sensorsData(char* body)
 {
   //This section reads all sensors
   
-  int waterlevel = analogRead(soilpin);
+  int waterlevel = analogRead(SOIL_PIN);
  // int lightlevel = analogRead(LIGHT_PIN);
   
   waterlevel = map(waterlevel, 0, 4095, 0, 1023);

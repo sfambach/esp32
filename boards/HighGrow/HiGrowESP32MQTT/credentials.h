@@ -12,10 +12,40 @@ const char* BRPWD  = "flieger";
 const char* CLIENTID = "HiGrow2";
 
 
-#define DHTTYPE DHT11   // DHT 11
+
 //#define DHTTYPE DHT21   // DHT 21 (AM2301)
 //#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 #define uS_TO_S_FACTOR 1000000
+
+
+#ifdef LILLIGO
+  #define DHTTYPE DHT11
+  #define I2C_SDA             25
+  #define I2C_SCL             26
+  #define DHT_PIN           16
+  #define BAT_ADC             33
+  #define SALT_PIN            34
+  #define SOIL_PIN            32
+  #define BOOT_PIN            0
+  #define POWER_CTRL          4
+  #define USER_BUTTON         35
+  #define DS18B20_PIN         21                  //18b20 data pin
+#else 
+
+  #define DHTTYPE DHT11
+  #define I2C_SDA             25
+  #define I2C_SCL             26
+  #define DHT_PIN             22
+  #define BAT_ADC             33
+  #define SALT_PIN            34
+  #define SOIL_PIN            32
+  #define BOOT_PIN            0
+  #define POWER_CTRL          4
+ // #define USER_BUTTON         35
+  #define DS18B20_PIN         21                  //18b20 data pin
+
+#endif
+
 
 //maximum is 400 days
 uint64_t  DEEPSLEEP_SECONDS = 10; // 10 seconds
