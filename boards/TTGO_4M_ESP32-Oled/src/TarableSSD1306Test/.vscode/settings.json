@@ -15,5 +15,6 @@
   ],
   "idf.espIdfPathWin": "C:\\Users\\spam\\esp-idf",
   "idf.customExtraPaths": "C:\\Users\\spam\\.espressif\\python_env\\idf4.3_py3.9_env\\Scripts;C:\\Users\\spam\\esp-idf\\tools;C:\\Users\\spam\\.espressif\\tools\\xtensa-esp32-elf\\esp-2020r3-8.4.0\\xtensa-esp32-elf\\bin;C:\\Users\\spam\\.espressif\\tools\\xtensa-esp32-elf\\esp-2020r3-8.4.0\\xtensa-esp32-elf\\bin;C:\\Users\\spam\\.espressif\\tools\\xtensa-esp32s2-elf\\esp-2020r3-8.4.0\\xtensa-esp32s2-elf\\bin;C:\\Users\\spam\\.espressif\\tools\\xtensa-esp32s3-elf\\esp-2020r3-8.4.0\\xtensa-esp32s3-elf\\bin;C:\\Users\\spam\\.espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;C:\\Users\\spam\\.espressif\\tools\\esp32s2ulp-elf\\2.28.51-esp-20191205\\esp32s2ulp-elf-binutils\\bin;C:\\Users\\spam\\.espressif\\tools\\cmake\\3.16.4\\bin;C:\\Users\\spam\\.espressif\\tools\\openocd-esp32\\v0.10.0-esp32-20200709\\openocd-esp32\\bin;C:\\Users\\spam\\.espressif\\tools\\ninja\\1.10.0\\;C:\\Users\\spam\\.espressif\\tools\\idf-exe\\1.0.1\\;C:\\Users\\spam\\.espressif\\tools\\ccache\\3.7\\;C:\\Users\\spam\\.espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64;C:\\Users\\spam\\.espressif\\python_env\\idf4.3_py3.9_env\\Scripts;",
-  "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"C:\\\\Users\\\\spam\\\\esp-idf\\\\tools\\\\openocd-esp32\\\\share\\\\openocd\\\\scripts\"}"
+  "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"C:\\\\Users\\\\spam\\\\esp-idf\\\\tools\\\\openocd-esp32\\\\share\\\\openocd\\\\scripts\"}",
+  "idf.portWin": "COM8"
 }

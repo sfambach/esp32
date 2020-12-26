@@ -14,13 +14,13 @@
 #include "ssd1306_default_if.h"
 
 #define USE_I2C_DISPLAY
-//#define USE_SPI_DISPLAY
+//#define USE_SPI_DISPLAY // <-- document out
 
 #if defined USE_I2C_DISPLAY
     static const int I2CDisplayAddress = 0x3C;
     static const int I2CDisplayWidth = 128;
-    static const int I2CDisplayHeight = 64;
-    static const int I2CResetPin = 16;
+    static const int I2CDisplayHeight = 64;     // <-- 32
+    static const int I2CResetPin = 16;          // <-- fill in reset
 
     struct SSD1306_Device I2CDisplay;
 #endif
@@ -75,7 +75,7 @@ void app_main( void ) {
 
         #if defined USE_SPI_DISPLAY
             SetupDemo( &SPIDisplay, &Font_liberation_mono_17x30 );
-            SayHello( &SPIDisplay, "Hi SPI!" );
+            SayHello( &SPIDisplay, "Stefan's Blog!" );
         #endif
 
         printf( "Done!\n" );
