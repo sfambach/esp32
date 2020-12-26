@@ -1,3 +1,14 @@
+/**
+ * Example for SSD106 lib from Daniel Eichhorn
+ * This example shows a simple text and a right aligned counter.
+ * 
+ * Libraries:
+ * https://github.com/ThingPulse/esp8266-oled-ssd1306
+ * 
+ * For more examples viste http://fambach.net if you want ;) 
+ * 
+ */
+
 /* modified font created at http://oleddisplay.squix.ch/ */
 #include "modified_font.h"
 
