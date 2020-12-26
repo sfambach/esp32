@@ -1,4 +1,4 @@
-# Install script for directory: C:/Devel/VSCodeEspressifIDF/WS/sample_project/components/u8g2
+# Install script for directory: C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/components/u8g2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

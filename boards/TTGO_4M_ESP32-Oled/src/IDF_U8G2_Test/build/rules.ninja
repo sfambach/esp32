@@ -1523,7 +1523,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_main
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\spam\.espressif\tools\cmake\3.16.4\bin\cmake.exe -SC:\Devel\VSCodeEspressifIDF\WS\sample_project -BC:\Devel\VSCodeEspressifIDF\WS\sample_project\build
+  command = C:\Users\spam\.espressif\tools\cmake\3.16.4\bin\cmake.exe -SC:\Devel\Git\esp32\boards\TTGO_4M_ESP32-Oled\src\IDF_U8G2_Test -BC:\Devel\Git\esp32\boards\TTGO_4M_ESP32-Oled\src\IDF_U8G2_Test\build
   description = Re-running CMake...
   generator = 1
 

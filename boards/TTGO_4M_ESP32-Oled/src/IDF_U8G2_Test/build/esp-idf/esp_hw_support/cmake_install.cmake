@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Devel/VSCodeEspressifIDF/WS/sample_project/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 
 endif()
 

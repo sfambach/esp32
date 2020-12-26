@@ -1,4 +1,4 @@
-# Install script for directory: C:/Devel/VSCodeEspressifIDF/WS/sample_project
+# Install script for directory: C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Devel/VSCodeEspressifIDF/WS/sample_project/build/esp-idf/cmake_install.cmake")
+  include("C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Devel/VSCodeEspressifIDF/WS/sample_project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

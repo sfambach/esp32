@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Users/spam/esp-idf/components/bootloader/subproject",
-    "build_dir":          "C:/Devel/VSCodeEspressifIDF/WS/sample_project/build/bootloader",
-    "config_file":        "C:/Devel/VSCodeEspressifIDF/WS/sample_project/sdkconfig",
+    "build_dir":          "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader",
+    "config_file":        "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
