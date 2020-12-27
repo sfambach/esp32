@@ -5,5 +5,5 @@
 cmake_minimum_required(VERSION 3.5)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(TarableSSD1306Test)
+project(IDF_TarableSSD1306Test)
 

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/CMakeFiles/bootloader"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/CMakeFiles/bootloader.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		}
 	],
 	"target" : 

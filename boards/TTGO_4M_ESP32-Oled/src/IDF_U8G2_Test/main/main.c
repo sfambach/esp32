@@ -20,6 +20,7 @@
 
 static const char *TAG = "ssd1306";
 
+int count = 0;
 void task_test_SSD1306i2c(void *ignore) { 
 	u8g2_esp32_hal_t u8g2_esp32_hal = U8G2_ESP32_HAL_DEFAULT;
 	u8g2_esp32_hal.sda   = PIN_SDA;
@@ -51,8 +52,13 @@ void task_test_SSD1306i2c(void *ignore) {
 	ESP_LOGI(TAG, "u8g2_SetFont");
     u8g2_SetFont(&u8g2, u8g2_font_ncenB14_tr);
 	ESP_LOGI(TAG, "u8g2_DrawStr");
-    u8g2_DrawStr(&u8g2, 2,17,"Hi nkolban!");
+
+	char* s = "Stefan's Blog";
+    u8g2_DrawStr(&u8g2, 2,17,s);
 	ESP_LOGI(TAG, "u8g2_SendBuffer");
+
+
+
 	u8g2_SendBuffer(&u8g2);
 
 	ESP_LOGI(TAG, "All done!");

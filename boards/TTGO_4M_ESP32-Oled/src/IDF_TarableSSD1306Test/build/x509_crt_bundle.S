@@ -1,4 +1,4 @@
-/* * Data converted from C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

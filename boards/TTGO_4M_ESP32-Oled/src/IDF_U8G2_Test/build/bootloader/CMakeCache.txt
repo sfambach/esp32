@@ -251,10 +251,10 @@ PYTHON_DEPS_CHECKED:UNINITIALIZED=1
 SDKCONFIG:UNINITIALIZED=C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/sdkconfig
 
 //Dependencies for the target
-__idf_bootloader_support_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_hw_support;general;__idf_hal;
+__idf_bootloader_support_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_hw_support;general;__idf_hal;
 
 //Dependencies for the target
-__idf_efuse_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_hw_support;general;__idf_hal;
+__idf_efuse_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_hw_support;general;__idf_hal;
 
 //Dependencies for the target
 __idf_esp_hw_support_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_hal;
@@ -272,13 +272,13 @@ __idf_log_LIB_DEPENDS:STATIC=general;__idf_esp_rom;general;__idf_esp_hw_support;
 __idf_main_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_hw_support;general;__idf_hal;
 
 //Dependencies for the target
-__idf_micro-ecc_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_hw_support;general;__idf_hal;
+__idf_micro-ecc_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_hw_support;general;__idf_hal;
 
 //Dependencies for the target
 __idf_soc_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_hw_support;general;__idf_hal;
 
 //Dependencies for the target
-__idf_spi_flash_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_hw_support;general;__idf_hal;
+__idf_spi_flash_LIB_DEPENDS:STATIC=general;__idf_log;general;__idf_esp_rom;general;__idf_esp_common;general;__idf_esp_hw_support;general;__idf_hal;
 
 //Value Computed by CMake
 bootloader_BINARY_DIR:STATIC=C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader

@@ -2308,7 +2308,7 @@
                                     {
                                         "children": [],
                                         "depends_on": "SPIRAM && ESP32_SPIRAM_SUPPORT",
-                                        "help": "If enabled the option,and add EXT_RAM_ATTR defined your variable,then your variable will be placed in\nPSRAM instead of internal memory, and placed most of variables of lwip,net802.11,pp,bluedroid library\nto external memory defaultly.",
+                                        "help": "If enabled, variables with EXT_RAM_ATTR attribute will be placed in SPIRAM instead of internal DRAM.\nBSS section of `lwip`, `net80211`, `pp`, `bt` libraries will be automatically placed\nin SPIRAM. BSS sections from other object files and libraries can also be placed in SPIRAM through\nlinker fragment scheme `extram_bss`.\n\nNote that the variables placed in SPIRAM using EXT_RAM_ATTR will be zero initialized.",
                                         "id": "SPIRAM_ALLOW_BSS_SEG_EXTERNAL_MEMORY",
                                         "name": "SPIRAM_ALLOW_BSS_SEG_EXTERNAL_MEMORY",
                                         "range": null,
@@ -2920,14 +2920,44 @@
                         "type": "choice"
                     },
                     {
-                        "children": [],
-                        "depends_on": "ESP32_RTC_CLK_SRC_EXT_CRYS",
-                        "help": "Choose which additional current is used for rtc external crystal.\n\n- With some 32kHz crystal configurations, the X32N and X32P pins may not\n  have enough drive strength to keep the crystal oscillating during deep sleep.\n  If this option is enabled, additional current from touchpad 9 is provided\n  internally to drive the 32kHz crystal. If this option is enabled, deep sleep current\n  is slightly higher (4-5uA) and the touchpad and ULP wakeup sources are not available.",
-                        "id": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT",
-                        "name": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT",
-                        "range": null,
+                        "children": [
+                            {
+                                "children": [],
+                                "depends_on": "<choice ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_METHOD>",
+                                "help": null,
+                                "id": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_NONE",
+                                "name": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_NONE",
+                                "range": null,
+                                "title": "None",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_METHOD>",
+                                "help": null,
+                                "id": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT",
+                                "name": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT",
+                                "range": null,
+                                "title": "Method 1",
+                                "type": "bool"
+                            },
+                            {
+                                "children": [],
+                                "depends_on": "<choice ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_METHOD>",
+                                "help": null,
+                                "id": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_V2",
+                                "name": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_V2",
+                                "range": null,
+                                "title": "Method 2",
+                                "type": "bool"
+                            }
+                        ],
+                        "depends_on": "ESP32_RTC_CLK_SRC_EXT_CRYS && ESP32_REV_MIN <= 1",
+                        "help": "With some 32kHz crystal configurations, the X32N and X32P pins may not have enough\ndrive strength to keep the crystal oscillating. Choose the method to provide\nadditional current from touchpad 9 to the external 32kHz crystal. Note that\nthe deep sleep current is slightly high (4-5uA) and the touchpad and the\nwakeup sources of both touchpad and ULP are not available in method 1 and method 2.\n\nThis problem is fixed in ESP32 ECO 3, so this workaround is not needed. Setting the\nproject configuration to minimum revision ECO3 will disable this option, , allow\nall wakeup sources, and save some code size.\n\n- \"None\" option will not provide additional current to external crystal\n- \"Method 1\" option can't ensure 100% to solve the external 32k crystal start failed\n  issue, but the touchpad can work in this method.\n- \"Method 2\" option can solve the external 32k issue, but the touchpad can't work\n  in this method.",
+                        "id": "component-config-esp32-specific-additional-current-for-external-32khz-crystal",
+                        "name": "ESP32_RTC_EXT_CRYST_ADDIT_CURRENT_METHOD",
                         "title": "Additional current for external 32kHz crystal",
-                        "type": "bool"
+                        "type": "choice"
                     },
                     {
                         "children": [],

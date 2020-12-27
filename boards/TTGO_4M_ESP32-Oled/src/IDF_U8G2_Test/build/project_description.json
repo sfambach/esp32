@@ -6,7 +6,7 @@
     "config_defaults":    "",
     "app_elf":            "main.elf",
     "app_bin":            "main.bin",
-    "git_revision":       "v4.3-dev-1901-g178b122c1",
+    "git_revision":       "v4.3-dev-2136-gb0150615d",
     "target":             "esp32",
     "phy_data_partition": "",
     "monitor_baud" :      "115200",

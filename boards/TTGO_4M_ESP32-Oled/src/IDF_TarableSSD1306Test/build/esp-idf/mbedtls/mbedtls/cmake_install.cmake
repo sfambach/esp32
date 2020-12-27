@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
 
 endif()
 

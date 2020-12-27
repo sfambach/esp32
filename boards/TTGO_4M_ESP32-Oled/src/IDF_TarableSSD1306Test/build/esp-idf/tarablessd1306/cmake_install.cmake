@@ -1,4 +1,4 @@
-# Install script for directory: C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/TarableSSD1306Test/components/tarablessd1306
+# Install script for directory: C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/components/tarablessd1306
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
