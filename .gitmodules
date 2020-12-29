@@ -1,0 +1,3 @@
+[submodule "boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/components/tarablessd1306"]
+	path = boards/TTGO_4M_ESP32-Oled/src/IDF_TarableSSD1306Test/components/tarablessd1306
+	url = https://github.com/TaraHoleInIt/tarablessd1306.git
