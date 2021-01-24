@@ -4,6 +4,8 @@
     You need to get streamId and privateKey at data.sparkfun.com and paste them
     below. Or just customize this script to talk to other HTTP servers.
 
+    Modified by SteFam www.fambach.net
+
 */
 
 #include <WiFi.h>
@@ -75,4 +77,3 @@ void loop()
   delay(5000);
   
 }
-
