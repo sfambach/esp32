@@ -1,6 +1,13 @@
 #ifndef CONSOLE_H
 #define CONSOLE
 
+/**
+ * Simulates a console, deletes the first line when 
+ * the screen is full and a second line is posted.
+ * 
+ * Created by SteFam www.Fambach.net
+ * 
+ */
 #include <WiFi.h>
 #include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
 #include "SSD1306.h" // alias for `#include "SSD1306Wire.h"`
