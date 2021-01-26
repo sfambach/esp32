@@ -9,7 +9,7 @@ src - Examples <br>
 lib - Libraries <br>
 
 ## Libs
-https://github.com/sandeepmistry/arduino-LoRa 
+https://github.com/sandeepmistry/arduino-LoRa <br>
 https://github.com/ThingPulse/esp8266-oled-ssd1306
 
 
