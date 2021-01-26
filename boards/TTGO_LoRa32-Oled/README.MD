@@ -3,8 +3,10 @@
 <img src="img/TTGO-LoRa-Board-Pinout.jpg" />
 
 ##Folders
-img - Pictures
-src - examples
+
+img - Pictures <br>
+src - Examples <br>
+lib - Libraries <br>
 
 ## Libs
 https://github.com/sandeepmistry/arduino-LoRa 
