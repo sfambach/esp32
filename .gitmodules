@@ -4,3 +4,15 @@
 [submodule "boards/ESP32Cam/src/esp32-cam-demo"]
 	path = boards/ESP32Cam/src/esp32-cam-demo
 	url = https://github.com/igrr/esp32-cam-demo.git
+[submodule "boards/TTGO_LoRa32-Oled/src/TTGO_Examples/OLED_LoRa_Receiver/esp8266-oled-ssd1306"]
+	path = boards/TTGO_LoRa32-Oled/src/TTGO_Examples/OLED_LoRa_Receiver/esp8266-oled-ssd1306
+	url = https://github.com/ThingPulse/esp8266-oled-ssd1306
+[submodule "boards/TTGO_LoRa32-Oled/src/TTGO_Examples/OLED_LoRa_Receiver/arduino-LoRa"]
+	path = boards/TTGO_LoRa32-Oled/src/TTGO_Examples/OLED_LoRa_Receiver/arduino-LoRa
+	url = https://github.com/sandeepmistry/arduino-LoRa
+[submodule "boards/TTGO_LoRa32-Oled/lib/arduino-LoRa"]
+	path = boards/TTGO_LoRa32-Oled/lib/arduino-LoRa
+	url = https://github.com/sandeepmistry/arduino-LoRa
+[submodule "boards/TTGO_LoRa32-Oled/lib/esp8266-oled-ssd1306"]
+	path = boards/TTGO_LoRa32-Oled/lib/esp8266-oled-ssd1306
+	url = https://github.com/ThingPulse/esp8266-oled-ssd1306
