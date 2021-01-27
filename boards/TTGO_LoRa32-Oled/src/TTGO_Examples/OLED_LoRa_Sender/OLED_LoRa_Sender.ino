@@ -1,3 +1,10 @@
+/**
+* LoRa Receiver 
+*
+* Created by TTGO
+* Modified by StefFam https://www.fambach.net
+*/
+
 #include <SPI.h>
 #include <LoRa.h>
 #include <Wire.h>  
