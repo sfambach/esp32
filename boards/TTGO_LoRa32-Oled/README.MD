@@ -10,7 +10,8 @@ lib - Libraries <br>
 
 ## Libs
 https://github.com/sandeepmistry/arduino-LoRa <br>
-https://github.com/ThingPulse/esp8266-oled-ssd1306
+https://github.com/ThingPulse/esp8266-oled-ssd1306<br>
+https://github.com/sfambach/OledTable
 
 
 ## License 
