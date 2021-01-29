@@ -16,3 +16,6 @@
 [submodule "boards/TTGO_LoRa32-Oled/lib/esp8266-oled-ssd1306"]
 	path = boards/TTGO_LoRa32-Oled/lib/esp8266-oled-ssd1306
 	url = https://github.com/ThingPulse/esp8266-oled-ssd1306
+[submodule "boards/TTGO_LoRa32-Oled/lib/OledTable"]
+	path = boards/TTGO_LoRa32-Oled/lib/OledTable
+	url = https://github.com/sfambach/OledTable

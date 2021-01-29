@@ -5,6 +5,7 @@
 * Modified by StefFam https://www.fambach.net
 */
 
+#include "OledTable.h"
 #include <SPI.h>
 #include <LoRa.h>
 #include <Wire.h>  
@@ -25,35 +26,31 @@
 #define SSD_ADDRESS 0x3c
 
 SSD1306 display(SSD_ADDRESS, DISPLAY_SDA, DISPLAY_SCL);
-String rssi = "RSSI --";
+OledTable table(&display,3,2);
+
+String rssi = "--";
 String packSize = "--";
 String packet ;
 
 
-void setupDisplay(){
-    // Init display 
-  pinMode(16,OUTPUT);
-  digitalWrite(16, LOW);    // set GPIO16 low to reset OLED
-  delay(50); 
-  digitalWrite(16, HIGH); // while OLED is running, must set GPIO16 in high、
+int lineCount = 5;
+int lineHeight =0;//=  display.getHeight()/lineCount;
+int colSize = 0 ; //display.getWidth()/2;
 
-  display.init();
-  display.flipScreenVertically();  
-  display.setTextAlignment(TEXT_ALIGN_LEFT);
-  display.setFont(ArialMT_Plain_10);
-  display.drawString(20, 20, "Display Setup finished");
-  display.display();
-  delay(1500);
-}
 
 void loraData(){
-  display.clear();
-  display.setTextAlignment(TEXT_ALIGN_LEFT);
-  display.setFont(ArialMT_Plain_10);
-  display.drawString(0 , 15 , "Received "+ packSize + " bytes");
-  display.drawStringMaxWidth(0 , 26 , 128, packet);
-  display.drawString(0, 0, rssi);  
-  display.display();
+
+  table.clear();
+  table.setText(0,0,"Rssi");
+  table.setText(0,1, String(rssi));
+  
+  table.setText(1,0 ,"Received ");
+  table.setText(1,1 ,String(packSize)+"[bytes]");
+
+  table.setText(2,0 ,"Content");
+  table.setText(2,1 ,packet);
+  
+  table.refresh();
 }
 
 void cbk(int packetSize) {
@@ -66,7 +63,18 @@ void cbk(int packetSize) {
 
 void setup() {
 
-  setupDisplay();
+  // Init display 
+  pinMode(DISPLAY_RST,OUTPUT);
+  digitalWrite(DISPLAY_RST, LOW);    // set GPIO16 low to reset OLED
+  delay(50); 
+  digitalWrite(DISPLAY_RST, HIGH); // while OLED is running, must set GPIO16 in high、
+  display.init();
+  display.flipScreenVertically();  
+  display.setTextAlignment(TEXT_ALIGN_LEFT);
+  display.setFont(ArialMT_Plain_10);
+  
+  // init table
+  table.init();
     
   Serial.begin(115200);
   while (!Serial);

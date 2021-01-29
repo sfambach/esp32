@@ -1,15 +1,9 @@
-/**
-* LoRa Receiver 
-*
-* Created by TTGO
-* Modified by StefFam https://www.fambach.net
-*/
-
 #include <SPI.h>
 #include <LoRa.h>
-#include <Wire.h>  
-#include "SSD1306.h" 
+#include <Wire.h>
+#include "SSD1306.h"
 #include "images.h"
+#include "OledTable.h"
 
 #define SCK     5    // GPIO5  -- SX1278's SCK
 #define MISO    19   // GPIO19 -- SX1278's MISO
@@ -27,60 +21,55 @@ unsigned int counter = 0;
 #define SSD_ADDRESS 0x3c
 
 SSD1306 display(SSD_ADDRESS, DISPLAY_SDA, DISPLAY_SCL);
+OledTable table(&display,3,2);
 
-String rssi = "RSSI --";
+String rssi = "--";
 String packSize = "--";
 String packet ;
 
-
-void setupDisplay(){
-    // Init display 
-  pinMode(16,OUTPUT);
-  digitalWrite(16, LOW);    // set GPIO16 low to reset OLED
-  delay(50); 
-  digitalWrite(16, HIGH); // while OLED is running, must set GPIO16 in high、
-
-  display.init();
-  display.flipScreenVertically();  
-  display.setTextAlignment(TEXT_ALIGN_LEFT);
-  display.setFont(ArialMT_Plain_10);
-  display.drawString(20, 20, "Display Setup finished");
-  display.display();
-  delay(1500);
-}
+int lineCount = 1;
+int lineHeight =0;//=  display.getHeight()/lineCount;
+int colSize = 0 ; //display.getWidth()/2;
 
 
 void setup() {
 
-
-  setupDisplay();
+  // Init display 
+  pinMode(DISPLAY_RST,OUTPUT);
+  digitalWrite(DISPLAY_RST, LOW);    // set GPIO16 low to reset OLED
+  delay(50); 
+  digitalWrite(DISPLAY_RST, HIGH); // while OLED is running, must set GPIO16 in high、
+  display.init();
+  display.flipScreenVertically();  
+  display.setTextAlignment(TEXT_ALIGN_LEFT);
+  display.setFont(ArialMT_Plain_10);
   
-  pinMode(25,OUTPUT);
+  // init table
+  table.init();
+
+  pinMode(25, OUTPUT);
   Serial.begin(9600);
   while (!Serial);
   Serial.println();
   Serial.println("LoRa Sender Test");
-  
-  SPI.begin(SCK,MISO,MOSI,SS);
-  LoRa.setPins(SS,RST,DI0);
+
+  SPI.begin(SCK, MISO, MOSI, SS);
+  LoRa.setPins(SS, RST, DI0);
   if (!LoRa.begin(433E6)) {
     Serial.println("Starting LoRa failed!");
     while (1);
   }
   //LoRa.onReceive(cbk);
-//  LoRa.receive();
+  //  LoRa.receive();
   Serial.println("init ok");
   delay(1500);
 }
 
 void loop() {
-  display.clear();
-  display.setTextAlignment(TEXT_ALIGN_LEFT);
-  display.setFont(ArialMT_Plain_10);
-  
-  display.drawString(0, 0, "Sending packet: ");
-  display.drawString(90, 0, String(counter));
-  display.display();
+  table.clear();
+  drawString(1,1, "Sending packet: ");
+  drawString(1,2, String(counter));
+  table.refresh();
 
   // send packet
   LoRa.beginPacket();
