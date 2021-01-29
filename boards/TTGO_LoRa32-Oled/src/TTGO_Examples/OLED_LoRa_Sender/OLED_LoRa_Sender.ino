@@ -21,7 +21,7 @@ unsigned int counter = 0;
 #define SSD_ADDRESS 0x3c
 
 SSD1306 display(SSD_ADDRESS, DISPLAY_SDA, DISPLAY_SCL);
-OledTable table(&display,3,2);
+OledTable table(&display,2,2);
 
 String rssi = "--";
 String packSize = "--";
@@ -67,8 +67,8 @@ void setup() {
 
 void loop() {
   table.clear();
-  drawString(1,1, "Sending packet: ");
-  drawString(1,2, String(counter));
+  table.setText(0,0, "Sending packet: ");
+  table.setText(0,1, String(counter));
   table.refresh();
 
   // send packet
