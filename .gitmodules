@@ -19,3 +19,15 @@
 [submodule "boards/TTGO_LoRa32-Oled/lib/OledTable"]
 	path = boards/TTGO_LoRa32-Oled/lib/OledTable
 	url = https://github.com/sfambach/OledTable
+[submodule "boards/TTGO_ESP32_T-Writsband/lib/TFT_eSPI"]
+	path = boards/TTGO_ESP32_T-Writsband/lib/TFT_eSPI
+	url = https://github.com/Bodmer/TFT_eSPI
+[submodule "boards/TTGO_ESP32_T-Writsband/src/LilyGo-T-Wristband"]
+	path = boards/TTGO_ESP32_T-Writsband/src/LilyGo-T-Wristband
+	url = https://github.com/Xinyuan-LilyGO/LilyGo-T-Wristband
+[submodule "boards/TTGO_ESP32_T-Writsband/lib/PCF8563_Library"]
+	path = boards/TTGO_ESP32_T-Writsband/lib/PCF8563_Library
+	url = https://github.com/lewisxhe/PCF8563_Library
+[submodule "boards/TTGO_ESP32_T-Writsband/lib/WiFiManager"]
+	path = boards/TTGO_ESP32_T-Writsband/lib/WiFiManager
+	url = https://github.com/tzapu/WiFiManager
