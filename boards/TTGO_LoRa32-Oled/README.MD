@@ -1,8 +1,8 @@
 ## Receiver for TTGO LoRa ESP 32 Oled Board V1
 <img src="img/20210125_180431.jpg" /><br>
 <img src="img/TTGO-LoRa-Board-Pinout.jpg" />
-
-##Folders
+<br>
+## Folders
 
 img - Pictures <br>
 src - Examples <br>
