@@ -31,3 +31,6 @@
 [submodule "boards/TTGO_ESP32_T-Writsband/lib/WiFiManager"]
 	path = boards/TTGO_ESP32_T-Writsband/lib/WiFiManager
 	url = https://github.com/tzapu/WiFiManager
+[submodule "boards/TTGO_HiGrow/src/TTGO-T-HIGrow"]
+	path = boards/TTGO_HiGrow/src/TTGO-T-HIGrow
+	url = https://github.com/pesor/TTGO-T-HIGrow.git
