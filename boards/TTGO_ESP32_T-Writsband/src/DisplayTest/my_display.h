@@ -8,10 +8,13 @@ TFT_eSPI tft = TFT_eSPI();
 void setupDisplay(){
 
     tft.fillScreen(TFT_BLACK);
-    tft.setTextColor(TFT_WHITE);
-    tft.drawString("configure wrist",  35, tft.height() / 2  + 20);
+    tft.setTextColor(TFT_GREEN, TFT_BLACK);
+    
+    //tft.setTextDatum(TL_DATUM);
+    tft.drawString("configure wrist",  0, tft.height() / 2  + 20);
     tft.setTextColor(TFT_GREEN);
-    tft.drawString("\"T-Wristband\"",  40, tft.height() / 2 );
+    tft.drawString("\"T-Wristband\"",  0, tft.height() / 2 );
+    delay(200);
 
 }
 

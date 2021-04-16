@@ -5,8 +5,8 @@ const char* mySSID = "NODES";
 const char* myPW = "HappyNodes1234";
 
 // MQTT (CloudMQTT)
-const char* BROKER = "pi1";
-uint16_t    BRPORT = 1024;
+const char* BROKER = "192.168.1.26";
+uint16_t    BRPORT = 1883;
 const char* BRUSER = "herbert";
 const char* BRPWD  = "flieger";
 const char* CLIENTID = "HiGrow2";

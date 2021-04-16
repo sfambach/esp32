@@ -4,7 +4,7 @@
 void setup() {
   Serial.begin (115200);
   while (!Serial) {}
-  Wire.begin(21, 22);
+  Wire.begin(25, 26);
   //Wire.begin(D1,D2);
 
 }  // end of setup
