@@ -10,4 +10,4 @@ https://github.com/adafruit/Adafruit_Sensor
 Visit fambach.net for detailed informations (German)
 
 
-[GitHub Pages](https://pages.github.com/
+[GitHub Pages](https://pages.github.com/)
