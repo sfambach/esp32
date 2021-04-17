@@ -34,3 +34,30 @@
 [submodule "boards/TTGO_HiGrow/src/TTGO-T-HIGrow"]
 	path = boards/TTGO_HiGrow/src/TTGO-T-HIGrow
 	url = https://github.com/pesor/TTGO-T-HIGrow.git
+[submodule "boards/TTGO_HiGrow/src/LilyGo-HiGrow"]
+	path = boards/TTGO_HiGrow/src/LilyGo-HiGrow
+	url = https://github.com/Xinyuan-LilyGO/LilyGo-HiGrow.git
+[submodule "boards/HighGrow/lib/pubsubclient"]
+	path = boards/HighGrow/lib/pubsubclient
+	url = https://github.com/knolleary/pubsubclient.git
+[submodule "boards/TTGO_HiGrow/lib/AsyncTCP"]
+	path = boards/TTGO_HiGrow/lib/AsyncTCP
+	url = https://github.com/me-no-dev/AsyncTCP.git
+[submodule "boards/TTGO_HiGrow/lib/ESPAsyncWebServer"]
+	path = boards/TTGO_HiGrow/lib/ESPAsyncWebServer
+	url = https://github.com/me-no-dev/ESPAsyncWebServer.git
+[submodule "boards/TTGO_HiGrow/lib/ESP-DASH"]
+	path = boards/TTGO_HiGrow/lib/ESP-DASH
+	url = https://github.com/ayushsharma82/ESP-DASH.git
+[submodule "boards/TTGO_HiGrow/lib/Button2"]
+	path = boards/TTGO_HiGrow/lib/Button2
+	url = https://github.com/LennartHennigs/Button2.git
+[submodule "boards/TTGO_HiGrow/lib/BH1750"]
+	path = boards/TTGO_HiGrow/lib/BH1750
+	url = https://github.com/claws/BH1750.git
+[submodule "boards/TTGO_HiGrow/lib/DHT12_sensor_library"]
+	path = boards/TTGO_HiGrow/lib/DHT12_sensor_library
+	url = https://github.com/xreef/DHT12_sensor_library.git
+[submodule "boards/TTGO_HiGrow/lib/dht11"]
+	path = boards/TTGO_HiGrow/lib/dht11
+	url = https://github.com/adidax/dht11.git
