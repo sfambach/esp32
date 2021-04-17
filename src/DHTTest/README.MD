@@ -1,10 +1,9 @@
-=Short Test of the Adafruit DHT Lib for ESP8266/32
 
+# Short Test of the Adafruit DHT Lib for ESP8266/32
 
-== Dependencies
+## Dependencies
 https://github.com/adafruit/DHT-sensor-library
 https://github.com/adafruit/Adafruit_Sensor
 
-
-== Credits
+## Credits
 Visit fambach.net for detailed informations (German)
