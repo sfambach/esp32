@@ -39,5 +39,5 @@ You have to change the file credentials.h to your conditions - WiFi and MQTT acc
 
 ## Adopted
 By S. Fambach, 
-Visit Fambach.net if you want ;) 
+Visit http://www.fambach.net if you want ;) 
 
