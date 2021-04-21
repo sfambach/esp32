@@ -1,8 +1,8 @@
 # My Adoption of Claus Kuehnels HiGow MQTT Project
 
-## Changelog
+## Change Log
 
-### Initial changes
+### Initial Changes
 - Fix error wrong Integer value size
 - Put all settings in the setting credentials.h
 - Create own structure for MQTT
