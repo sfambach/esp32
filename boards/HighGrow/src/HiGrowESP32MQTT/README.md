@@ -1,7 +1,7 @@
-= My Adoption of Claus Kuehnels HiGow MQTT Project
+# My Adoption of Claus Kuehnels HiGow MQTT Project
 
-= Changelog
-=020212104 I Have done some changes ... 
+## Changelog
+### 020212104 I Have done some changes ... 
 MQTT Struture to be dynamically filled by defines
 Added a JSON Mqtt which is easier to parse by node red 
 Check the result of the temp and humidity sensor, if it is nan, a new sample will be done as long as it is no longer nan.
@@ -9,9 +9,9 @@ Implemented Support for LillyGo HiGrow sensor
 Add a Calibration value for the Temp Sensor
 
 
-= Credits
+#Credits
 
-== Original Code
+## Original Code
 My code is based on (c) Claus Kuehnel 2018-03-19 info@ckuehnel.ch 's code.
 
 The program HiGrowESP32MQTT.ino refers to the following two posts
@@ -30,6 +30,7 @@ You have to change the file credentials.h to your conditions - WiFi and MQTT acc
 
 (c) Claus Kuehnel 2018-03-19 info@ckuehnel.ch
 
-== Adopted
+## Adopted
+By S. Fambach, 
 Visit Fambach.net if you want ;) 
 
