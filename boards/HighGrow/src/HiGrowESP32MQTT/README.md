@@ -1,6 +1,13 @@
 # My Adoption of Claus Kuehnels HiGow MQTT Project
 
 ## Changelog
+
+### Initial changes
+Fix error wrong Integer value size
+Put all settings in the setting credentials.h
+Create own structure for MQTT
+... and some more i can't no longer remember ;)
+
 ### 020212104 I Have done some changes ... 
 MQTT Struture to be dynamically filled by defines
 Added a JSON Mqtt which is easier to parse by node red 
