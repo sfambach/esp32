@@ -16,7 +16,7 @@
 - Add a Calibration value for the Temp Sensor
 
 
-#Credits
+# Credits
 
 ## Original Code
 My code is based on (c) Claus Kuehnel 2018-03-19 info@ckuehnel.ch 's code.
