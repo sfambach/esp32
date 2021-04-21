@@ -3,17 +3,17 @@
 ## Changelog
 
 ### Initial changes
-Fix error wrong Integer value size
-Put all settings in the setting credentials.h
-Create own structure for MQTT
-... and some more i can't no longer remember ;)
+- Fix error wrong Integer value size
+- Put all settings in the setting credentials.h
+- Create own structure for MQTT
+- ... and some more i can't no longer remember ;)
 
 ### 020212104 I Have done some changes ... 
-MQTT Struture to be dynamically filled by defines
-Added a JSON Mqtt which is easier to parse by node red 
-Check the result of the temp and humidity sensor, if it is nan, a new sample will be done as long as it is no longer nan.
-Implemented Support for LillyGo HiGrow sensor
-Add a Calibration value for the Temp Sensor
+- MQTT Struture to be dynamically filled by defines
+- Added a JSON Mqtt which is easier to parse by node red 
+- Check the result of the temp and humidity sensor, if it is nan, a new sample will be done as long as it is no longer nan.
+- Implemented Support for LillyGo HiGrow sensor
+- Add a Calibration value for the Temp Sensor
 
 
 #Credits
