@@ -61,3 +61,9 @@
 [submodule "boards/TTGO_HiGrow/lib/dht11"]
 	path = boards/TTGO_HiGrow/lib/dht11
 	url = https://github.com/adidax/dht11.git
+[submodule "src/HiGrowMQTT/lib/ArduinoMqtt"]
+	path = src/HiGrowMQTT/lib/ArduinoMqtt
+	url = https://github.com/monstrenyatko/ArduinoMqtt.git
+[submodule "project/LoraGPSRangeTest/lib/TinyGPSPlus"]
+	path = project/LoraGPSRangeTest/lib/TinyGPSPlus
+	url = https://github.com/mikalhart/TinyGPSPlus.git
