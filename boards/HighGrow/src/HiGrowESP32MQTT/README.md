@@ -1,3 +1,26 @@
+# My Adoption of Claus Kuehnels HiGow MQTT Project
+
+## Change Log
+
+### Initial Changes
+- Fix error wrong Integer value size
+- Put all settings in the setting credentials.h
+- Create own structure for MQTT
+- ... and some more i can't no longer remember ;)
+
+### 020212104 I Have done some changes ... 
+- MQTT Struture to be dynamically filled by defines
+- Added a JSON Mqtt which is easier to parse by node red 
+- Check the result of the temp and humidity sensor, if it is nan, a new sample will be done as long as it is no longer nan.
+- Implemented Support for LillyGo HiGrow sensor
+- Add a Calibration value for the Temp Sensor
+
+
+# Credits
+
+## Original Code
+My code is based on (c) Claus Kuehnel 2018-03-19 info@ckuehnel.ch 's code.
+
 The program HiGrowESP32MQTT.ino refers to the following two posts
 
 https://ckblog2016.wordpress.com/2018/03/18/higrow-sensor-sorgt-fuer-das-wohl-der-pflanzen/
@@ -13,4 +36,8 @@ I use the CloudMQTT as MQTT Broker offered by the Swedish company 84codes AB in 
 You have to change the file credentials.h to your conditions - WiFi and MQTT access.
 
 (c) Claus Kuehnel 2018-03-19 info@ckuehnel.ch
+
+## Adopted
+By S. Fambach, 
+Visit http://www.fambach.net if you want ;) 
 
