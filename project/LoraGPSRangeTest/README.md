@@ -1,5 +1,5 @@
 #Lora GPS Test 
-![Project Image](https://github.com/sfambach/esp32/tree/master/project/LoraGPSRangeTest/img/img/spLora32GPSProjectCombination.jpg)
+![Project Image](https://github.com/sfambach/esp32/blob/master/project/LoraGPSRangeTest/img/EspLora32GPSProjectCombination.jpg)
 
 ## Hardware 
 2* TTGO-Lora-Oled V1
