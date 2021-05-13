@@ -1,6 +1,5 @@
 #Lora GPS Test 
-
-<img src="./img/spLora32GPSProjectCombination.jpg">
+![Project Image](./img/spLora32GPSProjectCombination.jpg)
 
 ## Hardware 
 2* TTGO-Lora-Oled V1
