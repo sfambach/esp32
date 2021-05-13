@@ -67,3 +67,15 @@
 [submodule "project/LoraGPSRangeTest/lib/TinyGPSPlus"]
 	path = project/LoraGPSRangeTest/lib/TinyGPSPlus
 	url = https://github.com/mikalhart/TinyGPSPlus.git
+[submodule "project/LoraGPSRangeTest/lib/arduino-LoRa"]
+	path = project/LoraGPSRangeTest/lib/arduino-LoRa
+	url = https://github.com/sandeepmistry/arduino-LoRa.git
+[submodule "project/LoraGPSRangeTest/lib/esp8266-oled-ssd1306"]
+	path = project/LoraGPSRangeTest/lib/esp8266-oled-ssd1306
+	url = https://github.com/ThingPulse/esp8266-oled-ssd1306.git
+[submodule "project/LoraGPSRangeTest/lib/pubsubclient"]
+	path = project/LoraGPSRangeTest/lib/pubsubclient
+	url = https://github.com/knolleary/pubsubclient.git
+[submodule "project/LoraGPSRangeTest/lib/OledTable"]
+	path = project/LoraGPSRangeTest/lib/OledTable
+	url = https://github.com/sfambach/OledTable.git
