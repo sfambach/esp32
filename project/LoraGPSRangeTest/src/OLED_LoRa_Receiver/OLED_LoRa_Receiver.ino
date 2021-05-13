@@ -2,9 +2,10 @@
   LoRa Receiver, receives packackages with gps data and sends them to an mqtt server.
 
   LIBS
-
-
-
+  https://github.com/sandeepmistry/arduino-LoRa
+  https://github.com/ThingPulse/esp8266-oled-ssd1306
+  https://github.com/mikalhart/TinyGPSPlus (only for the distance)
+  https://github.com/knolleary/pubsubclient
 
   Created by S.Fambach visit https://www.fambach.net
   With help of the examples in the libs

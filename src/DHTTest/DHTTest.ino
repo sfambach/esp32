@@ -1,9 +1,10 @@
 /** DHT Test for ESP8266 and ESP 32
-
 */
 
 // include adafruit dht lib
-#include <DHT.h>
+#include <DHT.h> // https://github.com/adafruit/DHT-sensor-library
+// the unified sensor lib is also needed https://github.com/adafruit/Adafruit_Sensor
+
 
 // define the pin for the dht sensor
 #define DHT_PIN 16
@@ -29,9 +30,9 @@ void setup() {
 
 
   //! Sensor power control pin for higrow, use deteced must set high
-  pinMode(POWER_CTRL, OUTPUT);
-  digitalWrite(POWER_CTRL, HIGH);
-  delay(1000);
+  //pinMode(POWER_CTRL, OUTPUT);
+  //digitalWrite(POWER_CTRL, HIGH);
+  //delay(1000);
 
   // start dht sensor
   dhtSensor.begin();

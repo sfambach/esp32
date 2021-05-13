@@ -16,6 +16,8 @@ const char* BRUSER = "admin";
 const char* BRPWD  = "admin";
 const char* CLIENTID = "HiGrow2";
 
+#define HW_UART_SPEED                 115200L
+
 
 
 //#define DHTTYPE DHT21   // DHT 21 (AM2301)

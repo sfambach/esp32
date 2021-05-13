@@ -1,9 +1,6 @@
 /*
   Version2 for the higrow boards
-  
-  Version 1 was from (c) Claus Kuehnel 2018-03-18 info@ckuehnel.ch
-  Version 2 is very different to the Version 1 new MQTT Lib ... 
-  
+      
   Visit Fambach.net for additonal informations
 
   20210421 Support for Lilligo HiGrow added, rebuild mqtt structure, add json mqtt message
@@ -61,7 +58,7 @@ void setup()
 {
   // power optimization
   setCpuFrequencyMhz(80);
-  Serial.begin(115200);
+  Serial.begin(HW_UART_SPEED);
 
   pinMode(POWER_CTRL, OUTPUT);
   digitalWrite(POWER_CTRL, HIGH);

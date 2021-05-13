@@ -61,11 +61,11 @@ const char* CLIENTID = "HiGrow2";
 
 
 //maximum is 400 days
-//uint64_t  DEEPSLEEP_SECONDS = 10; // 10 seconds
+// uint64_t  DEEPSLEEP_SECONDS = 10; // 10 seconds
 uint64_t DEEPSLEEP_SECONDS = 1800; // 30 min
-//uint64_t  DEEPSLEEP_SECONDS = 180; // 3 min
+// uint64_t  DEEPSLEEP_SECONDS = 180; // 3 min
 // uint64_t  DEEPSLEEP_SECONDS = 3600; // 60 min number to big
-//uint64_t  DEEPSLEEP_SECONDS = 7200; // every two hours
+// uint64_t  DEEPSLEEP_SECONDS = 7200; // every two hours
 // uint64_t  DEEPSLEEP_SECONDS = 3600*12; // twice a day
 // uint64_t  DEEPSLEEP_SECONDS = 3600*24; // once a day
 
