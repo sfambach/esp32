@@ -79,3 +79,6 @@
 [submodule "project/LoraGPSRangeTest/lib/OledTable"]
 	path = project/LoraGPSRangeTest/lib/OledTable
 	url = https://github.com/sfambach/OledTable.git
+[submodule "boards/TTGO_T-Beam/lib/arduino-LoRa"]
+	path = boards/TTGO_T-Beam/lib/arduino-LoRa
+	url = https://github.com/sandeepmistry/arduino-LoRa
