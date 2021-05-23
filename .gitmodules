@@ -94,3 +94,6 @@
 [submodule "boards/TTGO_T-Beam/lib/AXP202X_Library"]
 	path = boards/TTGO_T-Beam/lib/AXP202X_Library
 	url = https://github.com/lewisxhe/AXP202X_Library
+[submodule "boards/--force"]
+	path = boards/--force
+	url = https://github.com/sfambach/TTGO_T-Beam
