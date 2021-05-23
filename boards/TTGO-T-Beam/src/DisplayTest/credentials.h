@@ -1,8 +1,0 @@
-#ifndef CREDENTIALS_H
-#define CREDENTIALS_H
-
-SW1_PIN 35
-
-
-
-#endif // CREDENTIALS_H

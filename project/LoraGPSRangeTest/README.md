@@ -23,4 +23,4 @@ Gets GPS data from the module and sends it via lora to the receiver
 Receives the GPS data from lora and sends them to a MQTT Broker via WIFI. 
 
 ## Credits
-Project programmed by Stefan Fambach visit fambach.net if you want. 
+Project programmed by Stefan Fambach visit https://fambach.net/lora-gps-spass if you want. 
