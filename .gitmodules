@@ -97,3 +97,6 @@
 [submodule "boards/--force"]
 	path = boards/--force
 	url = https://github.com/sfambach/TTGO_T-Beam
+[submodule "boards/-name"]
+	path = boards/-name
+	url = https://github.com/sfambach/TTGO_T-Beam
