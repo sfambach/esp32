@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/CMakeFiles/bootloader
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/CMakeFiles/bootloader.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/CMakeFiles/bootloader-complete.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Devel/Git/esp32/boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
