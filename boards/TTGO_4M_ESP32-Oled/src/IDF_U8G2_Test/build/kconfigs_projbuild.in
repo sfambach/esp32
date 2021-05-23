@@ -1,4 +1,0 @@
-source "C:/Users/spam/esp-idf/components/app_update/Kconfig.projbuild"
-source "C:/Users/spam/esp-idf/components/bootloader/Kconfig.projbuild"
-source "C:/Users/spam/esp-idf/components/esptool_py/Kconfig.projbuild"
-source "C:/Users/spam/esp-idf/components/partition_table/Kconfig.projbuild"
