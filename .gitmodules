@@ -82,3 +82,15 @@
 [submodule "boards/TTGO_T-Beam/lib/arduino-LoRa"]
 	path = boards/TTGO_T-Beam/lib/arduino-LoRa
 	url = https://github.com/sandeepmistry/arduino-LoRa
+[submodule "boards/TTGO_T-Beam/lib/esp8266-oled-ssd1306"]
+	path = boards/TTGO_T-Beam/lib/esp8266-oled-ssd1306
+	url = https://github.com/ThingPulse/esp8266-oled-ssd1306
+[submodule "boards/TTGO_T-Beam/lib/pubsubclient"]
+	path = boards/TTGO_T-Beam/lib/pubsubclient
+	url = https://github.com/knolleary/pubsubclient
+[submodule "boards/TTGO_T-Beam/lib/TinyGPSPlus"]
+	path = boards/TTGO_T-Beam/lib/TinyGPSPlus
+	url = https://github.com/mikalhart/TinyGPSPlus
+[submodule "boards/TTGO_T-Beam/lib/AXP202X_Library"]
+	path = boards/TTGO_T-Beam/lib/AXP202X_Library
+	url = https://github.com/lewisxhe/AXP202X_Library
