@@ -1,5 +1,5 @@
 # LILYGO TTGO T Beam
-I wrote some small tesprogramms for all parts of the T-Beam
+I wrote some small test programms for all parts of the T-Beam
 
 <img src="./img/T-Beam-front-perspectiv.jpg">
 
