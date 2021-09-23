@@ -23,4 +23,4 @@
 // gps Settings
 #define RXD2 34 // 32
 #define TXD2 35 //33
-#define GPS_BOUD 9800 // 4800 // 9800
+#define GPS_BOUD 9600 // 4800 // 9800

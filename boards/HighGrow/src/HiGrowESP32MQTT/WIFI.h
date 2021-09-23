@@ -10,22 +10,30 @@ void wifiConnect()
 {
   int count = 0;
   DEBUG_PRINT("[WIFI] Connecting to ");
-  DEBUG_PRINT(mySSID);
+  DEBUG_PRINTLN(mySSID);
   WiFi.disconnect();
   WiFi.mode(WIFI_STA);
-  
-  while (WiFi.status() != WL_CONNECTED) 
+  WiFi.setHostname(hostname);
+  DEBUG_PRINTLN(WiFi.macAddress());
+ 
+  while (WiFi.status() != WL_CONNECTED) {
+    WiFi.begin(mySSID, myPW);
+    delay(1000);
+    DEBUG_PRINT(".");
+  }
+  /*while (WiFi.status() != WL_CONNECTED) 
   {
     WiFi.begin(mySSID, myPW);
     delay(1000);
     DEBUG_PRINT(".");
     count++;
     if (count > 20) ESP.restart();
-  }
-  
+  }*/
+  WiFi.setHostname(hostname);
   DEBUG_PRINTLN("[WIFI] connected");
   DEBUG_PRINT("[WIFI] IP address: ");
   DEBUG_PRINTLN(WiFi.localIP());
+  
 }
 
 void wifiDisconnect(){

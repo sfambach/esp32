@@ -6,15 +6,12 @@ const char* mySSID = "NODES";
 const char* myPW = "HappyNodes1234";
 
 // MQTT (CloudMQTT)
-//const char* BROKER = "192.168.1.26";
-//uint16_t    BRPORT = 1883;
-//const char* BRUSER = "herbert";
-//const char* BRPWD  = "flieger";
 const char* BROKER = "192.168.1.10";
 uint16_t    BRPORT = 1883;
 const char* BRUSER = "admin";
 const char* BRPWD  = "admin";
 const char* CLIENTID = "HiGrow2";
+const char* hostname = "HiGrowBuero";
 
 
 
@@ -73,13 +70,13 @@ uint64_t DEEPSLEEP_SECONDS = 1800; // 30 min
 
 /*** define topics */
 #define FLOOR "EG"
-//#define ROOM  "Büro"
+#define ROOM  "Büro"
 //#define ROOM  "Diele"
-#define ROOM  "Wohnen"
-//#define PLANT "Bogenhanf"
+//#define ROOM  "Wohnen"
+#define PLANT "Bogenhanf"
 //#define PLANT "Yucca"
 //#define PLANT "Benjamini"
-#define PLANT "Gummibaum"
+//#define PLANT "Gummibaum"
 #define TEMP  "Temperatur"
 #define HUMI  "Luftfeuchte"
 #define SOIL  "Bodenfeuchte"

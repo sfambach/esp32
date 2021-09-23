@@ -51,7 +51,7 @@ void goToDeepSleep()
   digitalWrite(POWER_CTRL, LOW);
   //digitalWrite(dhtpowerpin, LOW);
   wifiDisconnect();
-
+  Serial.println(WiFi.macAddress());
   // Configure the timer to wake us up!
   //esp_sleep_enable_timer_wakeup(DEEPSLEEP_SECONDS * uS_TO_S_FACTOR);
   esp_sleep_enable_timer_wakeup(DEEPSLEEP_SECONDS  * uS_TO_S_FACTOR);
