@@ -26,8 +26,9 @@ void setup() {
   DEBUG_PRINTLN("Setup");
 
 #ifdef WIFI_ACTIVE
-  setupWifi();
-DEBUG_PRINTLN("Wifi OK");
+DEBUG_PRINT("Setup Wifi");
+  setupWifi(SSID,SSID_PASSWD);
+DEBUG_PRINTLN("... OK");
 #endif  // WIFI_ACTIVE
 DEBUG_PRINTLN("Wifi NOK");
 

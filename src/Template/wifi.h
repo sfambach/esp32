@@ -16,14 +16,14 @@
 
 
 
-void setupWifi() {
+void setupWifi(const char* ssid, const char* passwd) {
   WiFi.mode(WIFI_STA);
 
 
-#ifdef SSID
-  WiFi.begin(SSID, SSID_PASSWD);
+//#ifdef SSID
+  WiFi.begin(ssid, passwd);
   DEBUG_PRINTLN("wifi begin");
-#endif  // SSID
+//#endif  // SSID
 
   while (WiFi.waitForConnectResult() != WL_CONNECTED) {
     Serial.println("Connection Failed! Rebooting...");

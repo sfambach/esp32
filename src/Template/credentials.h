@@ -23,10 +23,10 @@
 #ifdef WIFI_ACTIVE
   #include "wifi.h"
 
-  #ifndef SSID
+ 
     #define SSID "NODES"
     #define SSID_PASSWD "HappyNodes1234"
-  #endif // SSID
+ 
 #endif // WIFI_ACTIVE
 
 
