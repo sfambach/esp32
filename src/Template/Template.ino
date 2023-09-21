@@ -41,7 +41,7 @@ DEBUG_PRINTLN("Wifi NOK");
 
 // handle NTP
 #ifdef NTP_ACTIVE
-  setupNTP();
+  setupNTP(NTP_URL);
   DEBUG_PRINTLN("NTP OK");
 #endif  // NTP_ACTIVE
 

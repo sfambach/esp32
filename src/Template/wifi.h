@@ -17,17 +17,16 @@
 
 
 void setupWifi(const char* ssid, const char* passwd) {
+
+  DEBUG_PRINT("wifi begin");
   WiFi.mode(WIFI_STA);
-
-
-//#ifdef SSID
   WiFi.begin(ssid, passwd);
-  DEBUG_PRINTLN("wifi begin");
-//#endif  // SSID
 
+  DEBUG_PRINT("... connecting ");
   while (WiFi.waitForConnectResult() != WL_CONNECTED) {
+
     Serial.println("Connection Failed! Rebooting...");
-    delay(5000);
+    delay(1000);
     ESP.restart();
   }
 }

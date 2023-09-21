@@ -54,8 +54,9 @@
 /***********************************************************************************/
 // ntp
 #ifdef NTP_ACTIVE
-
 #include "ntp.h"
+#define NTP_URL "europe.pool.ntp.org"
+
 #endif //NTP_ACTIVE
 
 
