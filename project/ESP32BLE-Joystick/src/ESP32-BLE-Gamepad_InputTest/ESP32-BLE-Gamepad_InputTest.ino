@@ -35,10 +35,11 @@ void initKeyboard(){
   keyboard.addElement(poti2);
 
   xaxis = new Poti(14, joyCallback);
-  xaxis->setThreshold(2); 
+  xaxis->setThreshold(5); 
+  keyboard.addElement(xaxis);
 
   yaxis = new Poti(27, joyCallback);
-  yaxis->setThreshold(2);
+  yaxis->setThreshold(5);
   keyboard.addElement(yaxis);
 
   fire = new Button(12, joyCallback);
