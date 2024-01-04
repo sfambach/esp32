@@ -1,5 +1,5 @@
 /***********************************************
-* Organ Test
+* Organ Periphery Test for Gamepad
 * Licence: AGPL3
 * Author: S. Fambach
 * Website: http://Fambach.net
