@@ -108,3 +108,7 @@
 	path = project/esp32-ble-joystick
 	url = https://github.com/sfambach/esp32-ble-joystick.git
 	branch = master
+[submodule "project/T-Wristband"]
+	path = project/T-Wristband
+	url = https://github.com/Xinyuan-LilyGO/T-Wristband.git
+	branch = master
