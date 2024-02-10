@@ -106,3 +106,7 @@
 [submodule "project/esp32-ble-joystick"]
 	path = project/esp32-ble-joystick
 	url = https://github.com/sfambach/esp32-ble-joystick.git
+[submodule "boards/TTGO_ESP32_T-Writsband/src/T-Wristband"]
+	path = boards/TTGO_ESP32_T-Writsband/src/T-Wristband
+	url = https://github.com/Xinyuan-LilyGO/T-Wristband.git
+	branch = master
