@@ -22,10 +22,6 @@
 [submodule "boards/TTGO_ESP32_T-Writsband/lib/TFT_eSPI"]
 	path = boards/TTGO_ESP32_T-Writsband/lib/TFT_eSPI
 	url = https://github.com/Bodmer/TFT_eSPI
-[submodule "boards/TTGO_ESP32_T-Writsband/src/LilyGo-T-Wristband"]
-	path = boards/TTGO_ESP32_T-Writsband/src/LilyGo-T-Wristband
-	url = https://github.com/Xinyuan-LilyGO/LilyGo-T-Wristband
-	branch = master
 [submodule "boards/TTGO_ESP32_T-Writsband/lib/PCF8563_Library"]
 	path = boards/TTGO_ESP32_T-Writsband/lib/PCF8563_Library
 	url = https://github.com/lewisxhe/PCF8563_Library
@@ -108,7 +104,4 @@
 	path = project/esp32-ble-joystick
 	url = https://github.com/sfambach/esp32-ble-joystick.git
 	branch = master
-[submodule "boards/TTGO_ESP32_T-Writsband/src/--force"]
-	path = boards/TTGO_ESP32_T-Writsband/src/--force
-	url = https://github.com/Xinyuan-LilyGO/T-Wristband.git
-	branch = master
+
