@@ -103,3 +103,6 @@
 [submodule "boards/-name=TTGO_T-Beam"]
 	path = boards/-name=TTGO_T-Beam
 	url = https://github.com/sfambach/TTGO_T-Beam
+[submodule "project/esp32-ble-joystick"]
+	path = project/esp32-ble-joystick
+	url = https://github.com/sfambach/esp32-ble-joystick.git
