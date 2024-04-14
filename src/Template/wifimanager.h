@@ -14,8 +14,8 @@ String getParam(String name) {
 }
 
 void saveParamCallback() {
-  Serial.println("[CALLBACK] saveParamCallback fired");
-  Serial.println("PARAM customfieldid = " + getParam("CUST_ID"));
+  log_v("[CALLBACK] saveParamCallback fired");
+  log_v("PARAM customfieldid = " + getParam("CUST_ID"));
 }
 
 void setupWifiManager() {
@@ -37,10 +37,10 @@ void setupWifiManager() {
   //res = wm.autoConnect("WifiMan","letMeIn1234"); // password protected ap
 
   if (!res) {
-    DEBUG_PRINTLN("Failed to connect");
+    log_e("Failed to connect");
     //ESP.restart();
   } else {
     //if you get here you have connected to the WiFi
-    DEBUG_PRINTLN("connected... :)");
+    log_v("connected... :)");
   }
 }

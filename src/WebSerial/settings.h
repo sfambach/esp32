@@ -1,0 +1,7 @@
+#ifndef SETTINGS_H
+#define SETTINGS_H
+
+#define SSID <SSID ID NAME>
+#define SSID_PASSWD <SSID PASSWORD>
+
+#endif //  SETTINGS_H

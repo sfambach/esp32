@@ -53,10 +53,11 @@ void setup() {
   wifiMulti.addAP(mySSID, myPW); // ssid to list of connectable aps
 
   // Examples of different ways to register wifi events
-  WiFi.onEvent(wifiGotIP, WiFiEvent_t::SYSTEM_EVENT_STA_GOT_IP);
-  WiFi.onEvent(wifiScanDone, WiFiEvent_t::SYSTEM_EVENT_SCAN_DONE);
-  WiFi.onEvent(wifiDisconnected, WiFiEvent_t::SYSTEM_EVENT_STA_DISCONNECTED);
-  WiFi.onEvent(wifiConnected, WiFiEvent_t::SYSTEM_EVENT_STA_CONNECTED);
+  WiFi.onEvent(wifiGotIP, arduino_event_id_t::ARDUINO_EVENT_WIFI_STA_GOT_IP);
+  WiFi.onEvent(wifiScanDone, arduino_event_id_t::ARDUINO_EVENT_WIFI_SCAN_DONE);
+  WiFi.onEvent(wifiDisconnected, arduino_event_id_t::ARDUINO_EVENT_WIFI_STA_DISCONNECTED);
+  WiFi.onEvent(wifiConnected, arduino_event_id_t::ARDUINO_EVENT_WIFI_STA_CONNECTED);
+
 
   //    Wifi.onEvent();
   //

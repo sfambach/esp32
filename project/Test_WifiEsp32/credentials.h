@@ -10,7 +10,7 @@ struct SSID_DATA{
 
 // WiFi
 const int SSID_SIZE = 1;
-SSID_DATA ssids[SSID_SIZE] ={ {.ssid="NODES", .pw="privat"}};
+SSID_DATA ssids[SSID_SIZE] ={ {.ssid="NODES", .pw="HappyNodes1234"}};
 
 const char * hostname = "Mein ESP";
 

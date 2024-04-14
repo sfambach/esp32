@@ -8,9 +8,8 @@
 * Visit http://www.fambach.net if you want
 ******************************************************************************/
 #include <Arduino.h>
+#include "settings.h"
 
-#include "credentials.h"
-#include "debug.h"
 
 
 
@@ -23,26 +22,26 @@
 /** Main Programm ************************************************************/
 void setup() {
   Serial.begin(115200);
-  DEBUG_PRINTLN("Setup");
+  Serial.setDebugOutput(true);
 
 #ifdef WIFI_ACTIVE
-DEBUG_PRINT("Setup Wifi");
+  log_v("Setup Wifi");
   setupWifi(SSID,SSID_PASSWD);
-DEBUG_PRINTLN("... OK");
 #endif  // WIFI_ACTIVE
-DEBUG_PRINTLN("Wifi NOK");
+
 
 // do the ota
 #ifdef OTA_ACTIVE
+  log_v("Setup Ota");
   setupOTA();
-  DEBUG_PRINTLN("OTA OK");
 #endif  //  OTA_ACTIVE
 
-
+  
 // handle NTP
 #ifdef NTP_ACTIVE
+  log_v("Setup NTP");
   setupNTP(NTP_URL);
-  DEBUG_PRINTLN("NTP OK");
+  
 #endif  // NTP_ACTIVE
 
 }
@@ -65,9 +64,10 @@ void loop() {
 // handle NTP
 #ifdef NTP_ACTIVE
   loopNTP();
+  printTimeNTP();
 #endif  // NTP_ACTIVE
 
-  printTimeNTP();
+  
 
   delay(2000);
 
