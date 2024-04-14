@@ -2,3 +2,4 @@
 boards/TTGO 4M ESP32-Oled/src/TarableSSD1306Test/components/tarablessd1306/
 boards/TTGO_4M_ESP32-Oled/src/IDF_U8G2_Test/components/u8g2/
 **/secrets.h
+**/my_settings.h
